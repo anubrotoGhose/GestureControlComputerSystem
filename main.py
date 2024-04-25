@@ -366,7 +366,7 @@ while True:
                 print("Screenshot Number After Iteration =",x)
                 print(type(x))
                 f.close()
-                cv2.imwrite("C:/Users/anubr/Python Projects/Machine Vision/Project/Screenshots/image"+str(x)+".png", image)
+                cv2.imwrite("./Screenshots/image"+str(x)+".png", image)
                 c+=1
                 time.sleep(3)
             else:
