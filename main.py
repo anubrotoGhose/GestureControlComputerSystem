@@ -127,6 +127,7 @@ while True:
     lmlist = detector.findPosition(img, draw=False)
     print("Operation Mode = ", operation_mode)
     if len(lmlist) != 0:
+        print(lmlist)
         x4, y4 = lmlist[4][1], lmlist[4][2]
         x8, y8 = lmlist[8][1], lmlist[8][2]
         length = math.hypot(x8-x4, y8-y4)
